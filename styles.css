@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    
+}
+body {
+    border-radius: 50px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-color:white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.illustration {
+    position: relative;
+}
+
+.illustration img {
+    width: 380px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+p {
+    color: #0e0707;
+    font-size: 14px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+
+.login-box {
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-box p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.google-login {
+    background-color: #db4a39;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.remember-forgot input {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    color: #6b276b;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.login-button {
+    background-color: #6b276b;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.create-account {
+    color: #6b276b;
+    text-decoration: none;
+}
+<!--
+.login-box button>img {
+    width:0.6cm;height: 0.4cm;
+} -->
+
+.login-box img {
+    width: 60px;
+    height: 60px;
+   
+    
+}  
