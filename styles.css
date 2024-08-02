@@ -141,7 +141,8 @@ input[type="email"], input[type="password"] {
 
 .login-box img {
     width: 60px;
-    height: 60px;
-   
-    
+    height: 60px;  
 }  
+.login-box button:hover{
+    background: rgb(141, 105, 105);
+}
